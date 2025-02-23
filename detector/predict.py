@@ -95,6 +95,7 @@ for i in range(len(results)):
             font=ImageFont.load_default(size=30),
             fill=cls_color,
         )
-
-    output_path = "/content/drive/MyDrive/data_coin/results"
+        
+    img_name, img_ext = os.path.splitext(os.path.basename(img_path))
+    output_path = os.path.join("/content/drive/MyDrive/data_coin/results", img_name + "_result" + img_ext)
     im.save(output_path)
