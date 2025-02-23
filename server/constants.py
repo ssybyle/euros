@@ -1,7 +1,7 @@
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "gif"}
 
-UPLOAD_FOLDER = "./data/uploads"
-RESULTS_FOLDER = "./data/results"
+UPLOAD_FOLDER = "/content/myDrive/data_coin/uploads"
+RESULTS_FOLDER = "/content/myDrive/data_coin/results"
 
 IDENTICAL_IOU_THRESHOLD = 0.9
 DETECTION_CONF_THRESHOLD = 0.6
