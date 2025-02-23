@@ -11,6 +11,10 @@ names:
   6: '50_cents'
   5: '1_euro'
   4: '2_euro'
+  3: 'truc1',
+  2: 'truc2',
+  1: 'truc3',
+  0: 'truc4'
 
 
 
