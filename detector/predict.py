@@ -42,7 +42,7 @@ IDENTICAL_IOU_THRESHOLD = 0.9
 DETECTION_CONF_THRESHOLD = 0.6
 
 # model = YOLO("runs/detect/yolov8n_720x960_larger_rotation/weights/best.pt")
-model = YOLO("runs/detect/yolov8n_720x960_larger_data_split4/weights/best.pt")
+model = YOLO("runs/detect/yolov8n_720x960_larger_data_split/weights/best.pt")
 # model = YOLO("yolov8n.pt")
 
 path = "/content/drive/MyDrive/data_coin/uploads/test"
