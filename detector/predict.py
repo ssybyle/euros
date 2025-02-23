@@ -32,11 +32,7 @@ CLASS_NAMES = [
     "20_cent",
     "50_cent",
     "1_euro",
-    "2_euro",
-    "truc1",
-    "truc2",
-    "truc3,
-    "truc4"
+    "2_euro"
 ]
 
 COLOURS = ["red", "green", "blue", "yellow", "orange", "pink", "brown", "white"]
