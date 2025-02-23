@@ -47,7 +47,7 @@ model = YOLO("runs/detect/yolov8n_720x960_larger_data_split/weights/best.pt")
 
 path = "/content/drive/MyDrive/data_coin/uploads"
 # images = list(path + "/" + x for x in os.listdir(path))
-images = [os.path.join(uploads_path, f) for f in os.listdir(uploads_path) if f.endswith(('.jpg', '.png', '.jpeg'))]
+images = [os.path.join(path, f) for f in os.listdir(path) if f.endswith(('.jpg', '.png', '.jpeg'))]
 results = model(images, conf=DETECTION_CONF_THRESHOLD)
 
 # Process results list
