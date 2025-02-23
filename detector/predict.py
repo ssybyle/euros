@@ -45,7 +45,7 @@ DETECTION_CONF_THRESHOLD = 0.6
 model = YOLO("runs/detect/yolov8n_720x960_larger_data_split/weights/best.pt")
 # model = YOLO("yolov8n.pt")
 
-path = "/content/drive/MyDrive/data_coin/uploads"
+path = "/content/drive/MyDrive/data_coin/uploads/test"
 # images = list(path + "/" + x for x in os.listdir(path))
 images = [os.path.join(path, f) for f in os.listdir(path) if f.endswith(('.jpg', '.png', '.jpeg'))]
 results = model(images, conf=DETECTION_CONF_THRESHOLD)
