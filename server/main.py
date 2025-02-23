@@ -51,7 +51,7 @@ def process_image(path):
         resized = img.resize(INPUT_IMG_SIZE)
         resized.save(path)
 
-    processed_path = os.path.join(RESULTS_FOLDER, os.path.basename(image_path))
+    processed_path = os.path.join(RESULTS_FOLDER, os.path.basename(path))
     img.save(processed_path)
     
     # Run inference
