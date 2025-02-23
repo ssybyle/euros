@@ -96,7 +96,5 @@ for i in range(len(results)):
             fill=cls_color,
         )
 
-    im.show("Result")
-    # print(confs, clss, result.boxes)
-    # result.show()  # display to screen
-    # result.save(filename="result.jpg")  # save to disk
+    output_path = "/content/drive/MyDrive/data_coin/results"
+    im.save(output_path)
