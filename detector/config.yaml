@@ -1,6 +1,6 @@
-path: 'C:\Users\agent\Documents\Projekty\euros\detector\data\dataset_larger'
-train: 'images/train'
-val: 'images/test'
+path: '/content/drive/MyDrive/data_coin/uploads'
+train: '/content/drive/MyDrive/data_coin/uploads/train'
+val: '/content/drive/MyDrive/data_coin/uploads/test'
 
 names:
   0: '1_cent'
