@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")
 # model = YOLO("yolov8s.pt")
-# model = YOLO("/content/drive/MyDrive/data_coin/runs/detect/yolov8n_720x960_larger_data_split/best.pt")
+model = YOLO("/content/drive/MyDrive/data_coin/runs/detect/yolov8n_720x960_larger_data_split/best.pt")
 
 results = model.train(
     data="config.yaml",
