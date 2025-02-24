@@ -1,6 +1,6 @@
 path: '/content/drive/MyDrive/data_coin/uploads'
-train: '/content/drive/MyDrive/data_coin/uploads/train'
-val: '/content/drive/MyDrive/data_coin/uploads/test'
+train: '/content/drive/MyDrive/data_coin/uploads/images/train'
+val: '/content/drive/MyDrive/data_coin/uploads/images/test'
 
 names:
   7: '1_cent'
